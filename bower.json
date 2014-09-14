@@ -1,0 +1,23 @@
+{
+  "name": "min-history",
+  "main": "min-history.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nomocas/min-history",
+  "authors": [
+    "Gilles Coomans <gilles.coomans@gmail.com>"
+  ],
+  "description": "HTML5 History API shim for IE8+, ... Simple, minimal, workable",
+  "keywords": [
+    "history",
+    "shim",
+    "ie8"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

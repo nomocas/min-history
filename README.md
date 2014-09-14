@@ -1,0 +1,3 @@
+# min-history : html5 history shim for IE8+, FF3+, Chrom, Safari, ...
+
+
