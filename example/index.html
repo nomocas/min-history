@@ -33,19 +33,19 @@
         var count = 0;
         var links = document.querySelectorAll('a.ajax');
         for (var i = 0; i < links.length; i++)
+        {
             links[i].onclick = function(e) {
-                //console.log("CLICK");
-                e.preventDefault();
-
+                console.log("CLICK");
+                if(e && typeof e.preventDefault !== 'undefined')
+                    e.preventDefault();
                 history.pushState({
                         hello: "world " + (++count)
                     }, 
                     this.title || ("hello world : " + count),
                     this.href);
-
                 return false;
             };
-
+        }
         // popstate event from back/forward in browser
         window.addEventListener('popstate', function(e) {
             console.log("* POP STATE : " + history.location.relative, " - ", JSON.stringify(history.state));
