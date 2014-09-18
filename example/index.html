@@ -38,10 +38,10 @@
                 e.preventDefault();
 
                 history.pushState({
-                    hello: "world " + (++count)
-                }, 
-                this.title || ("hello world : " + count),
-                this.href);
+                        hello: "world " + (++count)
+                    }, 
+                    this.title || ("hello world : " + count),
+                    this.href);
 
                 return false;
             };
