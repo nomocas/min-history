@@ -8,7 +8,7 @@ else
 history.init({
 	hashChangeAlone: true,
 	setStateEvent: true,
-	basePath: "/",
+	basePath: "/test",
 	hid: true
 });
 
