@@ -6,10 +6,11 @@
   "authors": [
     "Gilles Coomans <gilles.coomans@gmail.com>"
   ],
-  "description": "HTML5 History API shim for IE8+, ... Simple, minimal, workable",
+  "description": "HTML5 History API polyfill for IE8+, ... Simple, minimal, workable",
   "keywords": [
     "history",
     "shim",
+    "polyfill",
     "ie8"
   ],
   "license": "MIT",
