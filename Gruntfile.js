@@ -3,7 +3,6 @@ module.exports = function(grunt) {
 
 	// Project configuration.
 	grunt.initConfig({
-		//pkg: grunt.file.readJSON('package.json'),
 		'http-server': {
 			'dev': {
 				// the server root directory
@@ -22,14 +21,14 @@ module.exports = function(grunt) {
 			}
 		},
 		uglify: {
-			my_target: {
+			min: {
 				options: {
 			      compress: {
-			        drop_console: true
+			        drop_console: false
 			      }
 			    },
 				files: {
-					'min-history.min.js': ['./min-history.js']
+					'./dist/min-history.min.js': ['./lib/min-history.js']
 				}
 			}
 		}
