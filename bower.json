@@ -1,7 +1,7 @@
 {
   "name": "min-history",
   "main": "min-history.js",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "homepage": "https://github.com/nomocas/min-history",
   "authors": [
     "Gilles Coomans <gilles.coomans@gmail.com>"
